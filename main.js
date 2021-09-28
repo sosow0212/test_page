@@ -3,5 +3,5 @@ const Question = document.querySelector('.question');
 
 function start() {
   Start.style.display="none"
-  console.log('hi')
+  Question.style.display="flex";
 }

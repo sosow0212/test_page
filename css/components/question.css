@@ -1,7 +1,9 @@
 .question {
   display: flex;
+  display: none;
   flex-direction: column;
   margin-top: 20px;
+  
 }
 
 .question-text {
@@ -9,12 +11,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 150px;
 }
 
-.question__p {
+.question-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.q-button {
+  padding: 15px 0px;
   margin: 20px 0px;
-}
-
-.question__button-a {
-  margin: 10px 0px
 }

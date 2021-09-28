@@ -4,15 +4,15 @@
 @import "./components/result.css";
 
 body {
-  background-color: tomato;
+  background-color:slategray;
   height: 100vh;
 }
 
 .container {
-  width: 90%;
-  height: 90%;
+  width: 60%;
+  height: 60%;
   background-color:white;
   display: flex;
   flex-direction: column;
-  margin: 5% auto;
+  margin: 10% auto;
 }
