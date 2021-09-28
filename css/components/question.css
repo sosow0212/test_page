@@ -3,3 +3,18 @@
   flex-direction: column;
   margin-top: 20px;
 }
+
+.question-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.question__p {
+  margin: 20px 0px;
+}
+
+.question__button-a {
+  margin: 10px 0px
+}
